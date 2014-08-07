@@ -1,5 +1,0 @@
-cssmin
-Flask
-Flask-SQLAlchemy
-Flask-Assets
-gunicorn
