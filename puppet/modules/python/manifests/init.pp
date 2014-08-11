@@ -7,7 +7,7 @@ class python {
 }
 
 class python::packages {
-    $apt = ['python-dev', 'build-essential', 'python-pip', ]
+    $apt = ['python-dev', 'build-essential', 'python-pip', 'python-sqlalchemy' ]
     $pip = ['flask', ]
 
     package { $apt:

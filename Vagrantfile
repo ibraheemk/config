@@ -55,7 +55,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provision "shell", inline: "python /srv/flask/app.py &"
-  config.vm.provision "shell", inline: "/vagrant/script/postgres.sh &"
+  config.vm.provision "shell", inline: "/vagrant/script/postgres.sh"
   
   
 end
